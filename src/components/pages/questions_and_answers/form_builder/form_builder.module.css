@@ -1,0 +1,42 @@
+.tab{
+    background-color: #fbfcff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab:hover {
+    background-color: #5599ff;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activeTab {
+    background-color: rgba(85, 153, 255,15%);
+    color: #5599ff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowButtons {
+    background-color: white;
+    color: #5599ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowButtons:hover {
+    background-color: #5599ff;
+    color: white;
+}
+
+.sectionTitle {
+    padding: 1rem 1rem;
+    background-color: rgba(85, 153, 255,25%);
+}

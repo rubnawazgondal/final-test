@@ -1,0 +1,66 @@
+.button {
+  padding: 0.625rem 3.125rem;
+  border-radius: 0.5rem;
+  background-color: #5599ff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0.06rem 0.12rem 0 #00000029;
+  border: none;
+}
+
+.greyButton {
+  padding: 0.625rem 3.125rem;
+  border-radius: 0.5rem;
+  background-color: #edf0f5;
+  box-shadow: 0 0 0.188rem 0 #00000029;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #b2bac5;
+  border: none;
+}
+
+.button:hover {
+  background-color: #2d81ff;
+}
+
+.greyButton:hover {
+  background-color: #b4b7bc;
+  color: white;
+}
+
+.disabledBlueButton {
+  padding: 0.625rem 3.125rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0 0.06rem 0.12rem 0 #00000029;
+  border: none;
+  background-color: #d1e3ff;
+  color: grey;
+  cursor: no-drop;
+}
+
+.disabledGreyButton {
+  padding: 0.625rem 3.125rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.188rem 0 #00000029;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.188rem;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  background-color: #e5e5e5;
+  color: grey;
+  cursor: no-drop;
+}

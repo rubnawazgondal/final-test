@@ -1,0 +1,15 @@
+.heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.heading b span {
+  color: rgb(33, 118, 225);
+}
+
+.sub_heading {
+  font-size: 80%;
+  color: gray;
+}

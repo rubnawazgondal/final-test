@@ -1,0 +1,10 @@
+.backgroundImage {
+  background-image: url("../../../assets/background.png");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 85vh;
+  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.6rem;
+  object-fit: cover !important;
+}
