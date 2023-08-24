@@ -4,7 +4,7 @@ pipeline {
 		 stage('Clone repository') { 
 			 steps { 
 				 sh 'cd /home/microservices'
-				 git credentialsId: 'gitcredentional', url: 'https://github.com/rubnawazgondal/staging-final-test.git'
+				 git credentialsId: 'gitcredentional', url: 'https://github.com/rubnawazgondal/final-test.git'
 			 } 
 		 }
 		stage('Build') { 
