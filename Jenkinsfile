@@ -13,7 +13,7 @@ pipeline {
 				 sh 'docker images'
 				 sh 'docker stop staging-final-test' 
 				 sh 'docker rm staging-final-test' 
-				 sh 'docker create --name staging-final-test -p 4000:3000 selteq2/staging-final-test:latest' 
+				 sh 'docker create --name staging-final-test -p 3999:3000 selteq2/staging-final-test:latest' 
 				 sh 'docker ps' 
 				 sh 'docker start staging-final-test' 
 				 sh 'docker push selteq2/staging-final-test:latest' 
