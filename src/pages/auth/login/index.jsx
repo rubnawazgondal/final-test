@@ -10,6 +10,8 @@ import TextField from "../../../components/reusable_components/auth_textfield";
 import ReusableAuthPage from "../../../components/reusable_components/reusable_auth_page";
 import { useNavigate } from "react-router-dom";
 
+import INdex from "../../../asskll";
+
 import styles from "../auth.module.css";
 import { loginSuccess, setProfile } from "../../../redux/reducer/authReducer";
 
@@ -126,6 +128,7 @@ const Login = () => {
           </p>
         </div>
       </div>
+      <INdex></INdex>
     </ReusableAuthPage>
   );
 };
