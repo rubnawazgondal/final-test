@@ -1,0 +1,39 @@
+.btnDesign {
+  background: #25224a;
+  color: white;
+  border-top-right-radius: 0.6rem !important;
+  border-bottom-right-radius: 0.6rem !important;
+  border-bottom-left-radius: 0.6rem !important;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+  padding: 0.7rem 1.3rem;
+  margin-top: 8%;
+}
+.btnDesign:hover {
+  background: #625d94;
+  color: white;
+  border-top-right-radius: 0.6rem !important;
+  border-bottom-right-radius: 0.6rem !important;
+  border-bottom-left-radius: 0.6rem !important;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+  padding: 0.7rem 1.3rem;
+  margin-top: 8%;
+}
+
+.btnDesign:disabled {
+  color: #fff;
+  border-color: #007bff;
+  width: 100%;
+  font-size: 100%;
+  margin-top: 8%;
+  background-color: rgb(151, 178, 237) !important;
+  border: 0.06rem solid rgb(111, 154, 240);
+  box-shadow: 0 0.19rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  cursor: no-drop;
+}

@@ -1,0 +1,85 @@
+.sideBar {
+  width: 2.8rem;
+  height: 93vh;
+  background-color: white;
+  border-top-right-radius: 0.563rem;
+  border-top: 0.06rem solid #5599ff;
+  border-right: 0.06rem solid #5599ff;
+}
+
+.iconDeActiveColor {
+  color: #5599ff;
+  margin-top: 1.5rem;
+  padding: 0.2rem;
+}
+
+.iconActiveColor {
+  color: white;
+}
+
+.activeIndexStyling {
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  width: 90%;
+  margin-left: 0.25rem;
+  background-color: #5599ff;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+}
+
+.assignHeight {
+  height: 93vh;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.titleBarBorder {
+  border-bottom: 0.06rem solid #dcdcdc;
+}
+
+.titleBarHeading {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.313rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404145;
+}
+
+.titleBarButton {
+  /* padding: 0.2rem 1rem; */
+  height: 1.875rem;
+  border-radius: 0.375rem;
+  background: #5599ff;
+  color: white;
+  border: none;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.toolTipContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.toolTip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.375rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  top: 30%;
+  left: 150%;
+  /* transform: translateX(-50%); */
+  z-index: 1000000000;
+  white-space: nowrap;
+}
+
+.toolTipForActive {
+  top: 5%;
+  left: 103%;
+}

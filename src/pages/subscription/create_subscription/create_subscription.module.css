@@ -1,0 +1,27 @@
+.giveWidth {
+  width: 33.3%;
+}
+
+.addPlanHeading {
+  color: #484848;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.featuresBox {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: black;
+    height: 90%;
+    border-radius: 0.625rem;
+    background-color: #FBFCFF;
+    border: 0.06rem solid #DCDCDC;
+    overflow: auto;
+}
+
+.featuresBox ul{
+  list-style: none;
+}

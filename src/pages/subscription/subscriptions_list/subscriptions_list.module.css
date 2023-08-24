@@ -1,0 +1,107 @@
+.heading {
+  margin-left: 2.063rem;
+  margin-top: 1.813rem;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.188rem;
+  /* identical to box height, or 180% */
+  color: #484848;
+}
+
+.subscriptionList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: 2.063rem;
+  /* margin-right: 2.063rem; */
+}
+
+.card {
+  width: 25rem;
+  height: max-content;
+  padding: 1.25rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.375rem;
+  border: 0.06rem solid rgba(0, 0, 0, 0.175);
+  color: black !important;
+  background-color: white;
+  padding: 0.625rem !important;
+  box-shadow: 0 0 0 #c6c5c5 !important;
+}
+
+.cardHeading {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.813rem;
+  line-height: 0.938rem;
+  margin-right: 0.5rem;
+  color: #a9a9a9;
+}
+
+.cardTotal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.688rem;
+  /* line-height: 16px; */
+  /* or 132% */
+  color: #ff4e4e;
+}
+
+.cardIdName {
+  font-style: normal;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.938rem;
+  margin-right: 0.5rem;
+}
+
+.messageImage {
+  width: 2.563rem;
+  height: 2.563rem;
+  margin-right: 0.5rem;
+}
+
+.divider {
+  background-color: "#DCDCDC";
+  height: 0.063rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.mobileImage {
+  width: 14px;
+  height: 17px;
+}
+
+.monitorImage {
+  width: 17px;
+  height: 15px;
+}
+
+.addButton {
+  width: 25rem;
+  display: flex;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 0.06rem solid rgba(0, 0, 0, 0.175);
+  color: black !important;
+  background-color: white;
+  padding: 0.625rem !important;
+  box-shadow: 0 0 0 #c6c5c5 !important;
+  border-radius: 0.375rem;
+}
+
+
+.numberOfDaysColorRed {
+  color: #FF4E4E;
+}
+
+.numberOfDaysColorBlack {
+  color: #000;
+}

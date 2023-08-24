@@ -1,0 +1,20 @@
+.titleBar {
+  height: 3.118rem;
+  background-color: white;
+  border-bottom: 0.044rem solid #dcdcdc;
+}
+
+.titleBar img {
+  height: 2.018rem;
+  width: 2.063rem;
+  border-radius: 0.5rem;
+}
+
+.heading {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.313rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0.5rem;
+}

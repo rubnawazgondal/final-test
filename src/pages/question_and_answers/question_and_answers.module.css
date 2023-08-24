@@ -1,0 +1,17 @@
+.tab {
+    background-color: #fbfcff;
+    border: 0.1rem  solid #e3e9fc;
+    border-radius: 0.2rem;
+    padding: 0.5rem 0;
+}
+
+.tab:hover {
+    background-color: #5599ff;
+    color: white;
+    font-weight: bold;
+}
+
+.tabActive {
+    color: #5599ff;
+    font-weight: bold;
+}
